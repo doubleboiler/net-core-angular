@@ -12,6 +12,12 @@ export class ProductListComponent implements OnInit {
     constructor(private dataService: DataService) { }
 
     ngOnInit() {
+        this.load();
+    }
+    load() {
         this.dataService.getProducts().subscribe((data: Product[]) => this.products = data);
+    }
+    delete(id: number) {
+        this.dataService.deleteProduct(id).subscribe(data => this.load());
     }
 }
