@@ -8,6 +8,8 @@
     <None Remove="ClientApp\app\app.component.ts" />
     <None Remove="ClientApp\app\app.module.ts" />
     <None Remove="ClientApp\app\data.service.ts" />
+    <None Remove="ClientApp\app\product-detail.component.ts" />
+    <None Remove="ClientApp\app\product-list.component.ts" />
     <None Remove="ClientApp\app\Product.ts" />
     <None Remove="ClientApp\main.ts" />
     <None Remove="ClientApp\polyfills.ts" />
